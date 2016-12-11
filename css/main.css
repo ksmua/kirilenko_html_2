@@ -1,0 +1,191 @@
+/*div,p,h1,h2,h3,h4,h5,h6,a,span,ul,ol,li{outline: 1px dashed #ccc};*/
+body {
+  background-color: rgb(244, 245, 246);
+}
+.main_div {
+  clear: both;
+  width: 500px;
+  margin-top: 43px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head_block {
+  text-align: center;
+  font-family: "arial";
+  font-size: 14px;
+  border-bottom: 1px solid rgb(195, 195, 199);
+}
+
+.head_text{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.head_block p {
+  line-height: 22px;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+img {
+  height: 200px;
+  border: 1px solid rgb(144, 144, 144);
+}
+
+.text_block {
+  padding: 15px 0 0 0;
+  font-family: "MyriadProRegular";
+  font-size: 15px;
+  color: rgb(58, 58, 58);
+  border-bottom: 1px solid rgb(195, 195, 199);
+}
+
+.bold_text {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(25, 25, 25);
+}
+
+p {
+  margin: 10px 0 10px 0;
+  text-indent: 34px;
+  color: rgb(31, 31, 31);
+}
+
+a {
+  font-style: italic;
+  color: rgb(0, 86, 211);
+}
+
+ul {
+  padding-top: 8px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text_block:nth-last-child(1){
+  border-bottom: none;
+}
+
+/*===============FONTS==============*/
+/* font-family: "MyriadProRegular"; */
+
+@font-face {
+
+   font-family: "MyriadProRegular";
+
+   src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+
+   src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+
+   url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+
+   url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+
+   font-style: normal;
+
+   font-weight: normal;
+
+}
+
+/* font-family: "MyriadProBold"; */
+
+@font-face {
+
+   font-family: "MyriadProBold";
+
+   src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+
+   src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+
+   url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+
+   url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+
+   font-style: normal;
+
+   font-weight: normal;
+
+}
+
+/* font-family: "MyriadProItalic"; */
+
+@font-face {
+
+   font-family: "MyriadProItalic";
+
+   src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+
+   src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+
+   url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+
+   url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+
+   font-style: normal;
+
+   font-weight: normal;
+
+}
+
+/* font-family: "MyriadProSemiBold"; */
+
+@font-face {
+
+   font-family: "MyriadProSemiBold";
+
+   src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+
+   src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+
+   url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+
+   url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+
+   font-style: normal;
+
+   font-weight: normal;
+
+}
+
+/* font-family: "MyriadProBoldItalic"; */
+
+@font-face {
+
+   font-family: "MyriadProBoldItalic";
+
+   src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+
+   src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+
+   url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+
+   url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+
+   font-style: normal;
+
+   font-weight: normal;
+
+}
+
+/* font-family: "MyriadProSemiBoldItalic"; */
+
+@font-face {
+
+   font-family: "MyriadProSemiBoldItalic";
+
+   src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+
+   src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+
+   url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+
+   url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+
+   font-style: normal;
+
+   font-weight: normal;
+
+}
